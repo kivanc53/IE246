@@ -1,12 +1,22 @@
 package hws.hw1;
 
+
+/*
+        Print a rectangle of given lengths.
+        Provide the user the option to draw only the border with an additional parameter "-onlyBorderLine". Here are some examples:
+        java rectangle 3 4 -onlyBorderLine
+        ----
+        |  |
+        ----
+ */
+
 public class DrawRectangle {
     public static void main(String[] args) {
         drawRectangle();
     }
 
     public static void drawRectangle() {
-        String[] array = new String[]{"3", "4", "-onlyBorderLine"};
+        String[] array = new String[]{"4", "8", "-onlyBorderLine"};
 
         int noRows = Integer.parseInt(array[0]);
         int noCols = Integer.parseInt(array[1]);
