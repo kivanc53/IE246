@@ -1,5 +1,7 @@
 package lectures.l4;
 
+//enhanced for loop = for-each loop
+
 public class Lecture4 {
     public static void main(String[] args) {
         // Create a matrix 2D array

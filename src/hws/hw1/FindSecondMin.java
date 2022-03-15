@@ -2,7 +2,7 @@ package hws.hw1;
 
 
 /*
-        Given a sequence of integers as arguments, how would you find the second minimum entry?
+         Given a sequence of integers as arguments, how would you find the second minimum entry?
          You exclude the minimum number, not the value.
          Second minimum might be the same as the minimum.
          java secondMinEntry -1 1 2 3 4
